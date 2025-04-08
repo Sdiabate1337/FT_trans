@@ -1,0 +1,19 @@
+#settings2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	height: 95%;
+	background-color: rgb(26, 167, 64);
+	color: white;
+}
+
+setting-component {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90%;
+	display: flex;
+}

@@ -1,0 +1,351 @@
+/* body {
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	background: linear-gradient(139.98deg, #300141 10.69%, #2E0140 20.26%, #2D013F 30.76%, #2C013E 40.02%, #2B013D 51.46%, #2C0041 55.88%, #2C0041 63.86%, #2F0046 78.08%, #2B043E 83.04%);
+} */
+:root{
+    --classic-color: #ffffff;
+    /* --neon-color: #00DCFF; */
+    --neon-color: #F941FF;
+    --fire-color: #FF774D;
+    --water-color: #63CBFF;
+    --earth-color: #43FF74;
+    --primary-color: #bb07a3;
+    --secondary-color: #cb0ccb;
+    --tertiary-color: #B821FF;
+    --background-color:linear-gradient(45deg, #511569 30%, black 90%);
+    --nav-color: linear-gradient(180deg, rgba(132,0,135,1) 0%, rgba(23,0,44,1) 100%);
+}
+
+@font-face {
+    font-family: 'BowblyOne';
+    src: url('../images/fonts/BowlbyOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;     
+}
+@font-face {
+    font-family: 'Bungee';
+    src: url('../images/fonts/Bungee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bungeeline';
+    src: url('../images/fonts/BungeeInline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saira';
+    src: url('../images/fonts/saira.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../images/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* dashboard-component {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+} */
+
+
+.secondere {
+	width: 100%;
+	height: 5%;
+	display: flex;
+	justify-content: space-between;
+	top: 0;
+	min-width: 200px;
+	min-height: 50px;
+}
+
+
+
+
+.user-name {
+	padding-left: 3px;
+	padding-right: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* overflow: hidden; */
+	color: white;
+	font-size: 130%;
+	width: 30%;
+	height: auto;
+	background:#260039;
+	border: 2px #390004;
+	box-shadow: 0px 0px 5.5px rgba(255, 255, 255, 0.25);
+	border-radius: 53px;
+	font-family: Saira Stencil One;
+	max-width: 300px;
+	min-height: 40px;
+	min-width: 100px;
+	/* font-size: clamp(100%, 20vw, 100%); */
+	/* white-space: nowrap;
+	text-overflow: ellipsis; */
+
+}
+.contenue {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+	gap: 5%;
+	min-width: 200px;
+	min-height: 200px;
+}
+
+.diyamonda {
+	width: 30%;
+	height: 100%;
+}
+
+
+.wallet {
+	background-color: #300141;
+	width: 50%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	gap: 10%;
+	padding: 3%;
+	font-family: 'Bungee';
+	font-weight: 400;
+	font-size: 150%;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	filter: drop-shadow(0px 0px 0.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 0.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31)) drop-shadow(0px 0px 2.5px rgba(255, 255, 255, 0.31));
+	border-radius: 47px;
+	max-width: 160px;
+}
+
+.notification {
+	width: 20%;
+	height: 80%;
+	transition: transform 0.3s;
+}
+
+.notification:hover {
+	/* transform: scale(1.3); */
+	transform: scale(1.3);
+}
+
+
+.div3 {
+	margin-top: 20px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20%;
+	/* min-width: 200px; */
+	min-height: 40px;
+	/* max-width: 110px; */
+	height: 80%;
+	position: relative;
+	/* border: 2px solid red; */
+}
+
+.searchButton {
+	outline: none;
+	box-shadow: 0 0 8px rgba(172, 22, 144, 0.6);
+	/* background: rgb(43, 2, 90); */
+	background: transparent;
+	height: 100%;
+	width: 20%;
+	border-radius: 15%;
+	border:3px solid #E1319A;
+	border-right: 0;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
+	/* min-width: 40px; */
+}
+
+input.searchInput {
+	outline: none;
+	height: 100%;
+	box-shadow: 0 0 8px rgba(172, 22, 144, 0.6);
+	border:3px solid #E1319A;
+	border-top-left-radius: 0%;
+	border-bottom-left-radius: 0%;
+	z-index: 2;
+}
+input.searchInput.show {
+	display: flex;
+}
+.svg-search {
+	width: 100%;
+	height: 100%;
+	fill : white;
+}
+@media (max-width: 900px) {
+	input.searchInput {
+		display: none;
+		position: absolute;
+		min-width: 200px;
+		left: 50px;
+		background-color: #300141;
+		/* display: none; */
+	}
+	.searchButton {
+		border-right: 3px solid #E1319A;
+		border-top-right-radius: 15%;
+		border-bottom-right-radius: 15%;
+		min-width: 50px;
+	}
+	.div3 {
+		justify-content: unset;
+		margin-left: 3px;
+	}
+	.searchResult {
+		min-width: 250px;
+		z-index: 2;
+	}
+}
+
+.searchResult {
+	/* border: 2px solid red; */
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	display: none;
+	align-items: center;
+	gap: 10px;
+	/* padding-left: 10px; */
+	border-radius: 5px;
+	border:3px solid #E1319A;
+	/* border-top-left-radius: 5%;
+	border-top-right-radius: 5%; */
+	box-sizing: border-box;
+	padding-left: 5%;
+	border-top: none;
+	background: #570544;
+	z-index: 5px;
+}
+.searchResult.show {
+	display: flex;
+}
+
+.searchUsername {
+	color: white;
+	font-size: 130%;
+	font-family: 'Saira Stencil One';
+}
+
+.searchResult img {
+	border-radius: 50%;
+	height: 80%;
+	border: 2px solid black;
+	display: none;
+}
+
+.searchResult img.show {
+	aspect-ratio: 1/1;
+	display: block;
+	object-fit: cover;
+}
+
+.searchButton:hover {
+	cursor: pointer;
+	background: #E1319A;
+}
+
+#searchResultButton {
+	all: unset;
+    cursor: pointer;
+}
+
+
+.div4 {
+	margin-top: 20px;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	gap: 10px;
+	width: 60%;
+	max-width: 300px;
+	height: 100%;
+	min-width: 200px;
+}
+
+/* .info-sound-icons {
+	transition: transform 0.3s;
+}
+
+.info-sound-icons:hover {
+	transform: scale(1.3) rotate(15deg);
+} */
+
+@media (max-width: 800px) {
+	/* .contenue {
+		width: 70%;
+	} */
+
+	.wallet {
+		font-size: 100%;
+	}
+	.div4 {
+		margin-right: 0;
+	}
+}
+
+.notification-div {
+	display: none; 
+	position: absolute;
+	top: 7%;
+	right: 10%;
+	width: 20%;	
+	height: fit-content;
+	background-color: #490761;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+    flex-direction: column;
+    align-items: center; 
+	gap: 3%;
+	max-height: 50%;
+	min-height: 10%;
+	overflow-y: scroll;
+    /* justify-content: center;
+	 */
+  }
+
+  .notification-div::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+	}
+
+	.notification-div::-webkit-scrollbar-thumb {
+	    background-color: black; 
+	    border-radius: 10px; 
+	}
+
+  @media (max-width: 1200px)
+  {
+	.notification-div
+	{
+		top: 10%;
+		right: 25%;
+		width: 50%;
+		z-index: 2;
+	}
+  }

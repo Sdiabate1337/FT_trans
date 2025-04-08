@@ -1,0 +1,298 @@
+.containerFL {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: 90%;
+}
+
+#friendsList{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 100%;
+	max-width: 880px;
+	gap: 0px;
+	align-content: center;
+}
+
+@media (max-width: 1024px) {
+	#friendsList {
+		width: 90%;
+	}
+}
+
+@media (max-width: 480px) {
+	#friendsList {
+		width: 95%;
+	}
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 8px 16px;
+    background: #0000005C;
+    border-radius: 12px;
+    color: white;
+    font-family: Bungee, sans-serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 14px;
+}
+
+.tab.active {
+    background: #C212BA;
+}
+
+.add-friend-button {
+    padding: 8px 16px;
+    background: #C212BA;
+    border-radius: 12px;
+    color: white;
+    font-family: Bungee, sans-serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 14px;
+    border: none;
+    margin-left: auto;
+}
+
+.add-friend-button:hover {
+    background: #d613d0;
+    transform: scale(1.05);
+}
+
+.searchbar_b {
+    background: #0000005C;
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: 1px solid #C212BA;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.searchbar_b::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.searchbar_b:focus {
+    border-color: #ff00f7;
+    box-shadow: 0 0 10px rgba(194, 18, 186, 0.3);
+}
+
+.friends-section {
+    background: linear-gradient(180deg, #65016D 71.69%, #2B043E 83.69%);
+    box-shadow: 0px 0px 50px 5px #0000004D;
+    border-radius: 20px;
+    padding: 15px;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-title {
+    font-family: Bungee, sans-serif;
+    color: white;
+    font-size: clamp(18px, 4vw, 24px);
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+}
+
+.friend-list, .friend-requests {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: auto;
+    padding-right: 8px;
+    flex: 1;
+    min-height: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #C212BA transparent;
+}
+
+/* Custom scrollbar for webkit browsers */
+.friend-list::-webkit-scrollbar,
+.friend-requests::-webkit-scrollbar {
+    width: 6px;
+}
+
+.friend-list::-webkit-scrollbar-track,
+.friend-requests::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.friend-list::-webkit-scrollbar-thumb,
+.friend-requests::-webkit-scrollbar-thumb {
+    background-color: #C212BA;
+    border-radius: 20px;
+}
+
+.friend-requests {
+    display: none;
+}
+
+.friend-requests.active {
+    display: flex;
+}
+
+.friend-card {
+    background: #0000005C;
+    border-radius: 6px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s ease;
+}
+.req-card {
+    background: #0000005C;
+    border-radius: 6px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s ease;
+}
+
+.friend-avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #f4f4f4;
+    box-shadow: 0px 2px 2px 0px #00000040;
+}
+
+.friend-info {
+    flex: 1;
+    min-width: 80px;
+}
+
+.friend-name {
+    color: white;
+    font-family: Bungee, sans-serif;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.friend-status {
+    color: #C212BA;
+    font-size: 11px;
+}
+
+.friend-actions {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+}
+
+.button_b {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: Bungee, sans-serif;
+    font-size: 11px;
+    transition: transform 0.2s ease;
+    white-space: nowrap;
+}
+
+.button_b:hover {
+    transform: scale(1.05);
+}
+
+.button_b.chat {
+    background: #4CAF50;
+    color: white;
+}
+
+.button_b.chat:hover {
+    transform: scale(1.05);
+    background: #45a049;
+}
+
+.accept {
+    background: #C212BA;
+    color: white;
+}
+
+.decline {
+    background: #333;
+    color: white;
+}
+
+.remove {
+    background: #ff4444;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    /* body {
+        padding: 10px;
+    } */
+
+	.tabs{
+		flex-direction: column;
+	}
+    .container_b {
+        padding: 5px;
+    }
+
+    .friends-section {
+        padding: 10px;
+        height: calc(100vh - 100px);
+    }
+
+    .tab {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .add-friend-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .searchbar_b {
+        width: 120px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .friend-card {
+        padding: 5px 8px;
+    }
+
+    .button_b {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+
+    .button_b.chat {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+
+    .friend-name {
+        font-size: 12px;
+    }
+
+    .friend-status {
+        font-size: 10px;
+    }
+}	

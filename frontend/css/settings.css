@@ -1,0 +1,692 @@
+.div1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90%;
+}
+
+.settings
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 90%;
+	flex-direction: column;
+}
+
+.settings1
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(80, 0, 93, 1);
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	min-height: 700px;
+}
+
+.img_
+{
+	border-radius: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-image: url("../images/img-settings.png");
+	
+	align-items: flex-end;
+	width: 100%;
+	height: 25%;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.div1_ {
+    position: absolute; 
+	bottom: -35%;
+    /* top: 70%; 
+    left: 35%;  */
+    transform: translate(10%, -10%);
+	/* left: 50%; */
+
+	/* transform: translateX(-50%); */
+    width: 25%;
+	aspect-ratio: 1/1;
+    background-color:  rgba(136, 4, 138, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .img_settings
+{
+	object-fit: cover;
+} */
+
+.change_profile {
+    position: absolute; 
+    top: 30%; 
+    left: 60%; 
+    transform: translate(-50%, -50%);
+    width: 7%;
+	aspect-ratio: 1/1;
+    background-color:  rgba(136, 4, 138, 1); 
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2_
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 90%;
+	background-color:  rgba(0, 220, 255, 1);
+	border-radius: 100%;
+}
+
+.div3_
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid white;
+	width: 90%;
+	height: 90%;
+	background-color:  white;
+	border-radius: 100%;
+}
+
+.div-account-details
+{
+	width: 100%;
+	height: 76%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* border-radius: 20px; */
+
+}
+.empty
+{
+	height: 15%;
+	width: 100%;
+}
+.account-details_
+{
+	width: 100%;
+	height: 87%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* border-radius: 20px; */
+}
+/* @font-face {
+	font-family: 'Bungee_Inline';
+    src: url('../images/Bungee_Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+#plyername
+{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	font-family: Bungee_Inline;
+	font-size: 100%;
+	justify-content: center;
+	color: white;
+}
+
+#account-details
+{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+@font-face {
+	font-family: 'MPLUSRounded1c';
+    src: url('../images/MPLUSRounded1c-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#print-account-details
+{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+#edit
+{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	color: white;
+	gap : 2%;
+}
+
+
+.edit_username
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 20%;
+	gap: 10%;
+}
+
+
+
+
+.switch
+{
+	display: flex;
+	align-items: flex-start;
+	width: 50%;
+	height: 15%;
+	cursor: pointer;
+}
+
+
+
+.edit_username > h1
+{
+	font-family: 'MPLUSRounded1c';
+}
+
+
+.display_username_sett
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.display_change_username
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 15%;
+	font-family: "Bungee" !important;
+	/* font-size: 100%; */
+}
+.input_username
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	height: 50%;
+	font-size: 100%;
+	border-radius: 10px;
+	border: 2px solid white;
+	background-color: rgb(149, 32, 167);
+	color: white;
+}
+
+.logout_button
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	background-color: rgba(80, 0, 93, 1);
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5 ease-in-out;
+}
+.logout_button:hover {
+	transition: all 0.5 ease-in-out;
+	transform: scale(1.1);
+	background: rgba(228, 0, 205, 1);
+
+}
+
+#settings-btns{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.submit_btn
+{
+	width: 15%;
+	height: 40%;
+	font-size: 100%;
+	background-color: rgba(80, 0, 93, 1);
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5 ease-in-out;
+
+}
+
+.submit_btn:hover {
+	transition: all 0.5 ease-in-out;
+	background: rgba(228, 0, 205, 1);
+	border-radius: 10px;
+	
+}
+
+
+
+
+
+.display_setting
+{
+	width: 95%;
+	height: 15%;
+	display: flex;
+	margin-left: 5%;
+	margin-top: 5%;
+
+	gap: 20px;
+	/* justify-content: flex-start; */
+	flex-direction: column;
+}
+.display_setting > h1
+{
+	font-size: 250%;
+	margin-bottom: -18px;
+	color: white;
+}
+.display_setting > h3
+{
+	color: rgba(147, 151, 160, 1);
+	font-size: 150%;
+}
+.change_password
+{
+	width: 100%;
+	height: 55%;
+}
+
+
+
+
+.password__{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+}
+.password__1{
+	width: 98%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	
+	/* align-items: center; */
+	justify-content: flex-start;
+	margin-left: 2%;
+	flex-direction: row;
+}
+
+.password__1 > h1
+{
+	font-size: 200%;
+	font-family: 'MPLUSRounded1c';
+	color: white;
+	display: flex;
+	
+}
+
+
+
+.h1_password
+{
+	font-family: 'MPLUSRounded1c';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35%;
+	height: 40%;
+	font-size: 150%;
+	color: white;
+}
+
+.input_password
+{
+	width: 50%;
+	height: 50%;
+	background-color : rgba(228, 0, 205, 1);
+	font-size: 100%;
+	border-radius: 10px;
+	color: white;
+	border: 2px solid white;
+}
+
+.button_change_password
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20%;
+	height: 40%;
+	background-color : rgba(228, 0, 205, 1);
+	color: white;
+	font-family: 'MPLUSRounded1c';
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.button_change_password:hover {
+	transition: all 0.5 ease-in-out;
+	transform: scale(1.1);
+}
+
+
+.twofactory
+{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.dispaly_2factory_
+{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.display_secur
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.button_enable2fa
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button_2fa
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35%;
+	height: 35%;
+	background-color : rgba(228, 0, 205, 1);
+	color: white;
+	font-family: 'MPLUSRounded1c';
+	border: 2px solid white;
+	border-radius: 10px;
+	
+}
+.button_2fa:hover {
+	transition: all 0.5 ease-in-out;
+	transform: scale(1.1);
+}
+
+#input_picture {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    width: 50%; /* Full width */
+    text-align: center;
+    font-size: 100%;
+    color: #ffffff; /* Dark grey text */
+}
+
+#input_picture:hover {
+	border: 2px solid black;
+	border-color: #000000;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	
+}
+.display_secur > h1{
+	font-size: 150%;
+	color: white;
+}
+.display_secur > h3{
+	font-size: 150%;
+	color: rgba(147, 151, 160, 1);
+}
+.display_secur_label
+{
+	font-size: 200%;
+	color: rgba(147, 151, 160, 1);
+}
+
+.dispaly_2factory1
+{
+	width: 97%;
+	height: 20%;
+	display: flex;
+	font-size: 150%;
+	font-family: 'MPLUSRounded1c';
+	color: white;
+	align-items: center;
+	justify-content: flex-start;
+	margin-left: 3%;
+}
+.dispaly_2factory2
+{
+	width: 50%;
+	height: 7%;
+	font-size: 100%;
+	font-family: 'MPLUSRounded1c';
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(80, 0, 93, 1);
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+}
+
+
+.switch_button
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	height: 80%;
+	background-color: transparent;
+	border: 3px solid transparent;
+	/* border: 0px; */
+	/* color: white; */
+}
+.switch_button:hover {
+	transition: all 0.8 ease-in-out;
+	transform: scale(1.2);
+}
+
+
+
+.container1
+{
+	display: block;
+}
+.container2
+{
+	display: none;
+}
+
+@media (max-width: 2400px)
+{
+	.settings1
+	{
+		width: 70%;
+	}	
+	.dispaly_2factory2
+	{
+		width: 70%;
+	}
+}
+@media (max-width: 1200px)
+{
+	.dispaly_2factory2
+	{
+		width: 90%;
+	}
+	.settings1
+	{
+		width: 90%;
+	}
+	.button_change_password
+	{
+		height: 45%;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.input_username{
+		height: 40%;
+	}
+	.display_change_username
+	{
+		font-size: 80%;
+	}
+	#input_picture {
+		font-size: 50%;
+		padding: 8px;
+	}
+	.submit_btn
+	{
+		height: 50%;
+		width: 30%;
+		font-size: 70%;
+	}
+	.settings1
+	{
+		min-height: 0px;
+	}
+	.display_change_username 
+	{
+		font-size: 70%;
+	}
+	#plyername , #print-account-details
+	{
+		font-size: 50%;
+	}
+	.logout_button
+	{
+		font-size: 40%;
+		min-width: 70px;
+	}
+	.password__
+	{
+		flex-direction: column;
+	}
+	.input_password
+	{
+		height: 45%;
+		width: 70%;
+	}
+	.h1_password
+	{
+		height: 30%;
+		width: 100%;
+		font-size: 80%;
+	}
+	.button_change_password
+	{
+		font-size: 50%;
+		width: 50%;
+		height: 40%;
+	}
+	.password__1
+	{
+		font-size: 60%;
+	}
+	.settings1
+	{
+		height: 100%;
+		width: 95%;
+	}
+	.dispaly_2factory2
+	{
+		width: 95%;
+
+	}
+	.dispaly_2factory1 > h1
+	{
+		font-size: 4vw;
+	}
+	.display_secur > h1
+	{
+		font-size: 3vw;
+	}
+	.display_secur > h3
+	{
+		font-size: 2vw;
+	}
+	.button_2fa{
+		font-size: 40%;
+		height: 50%;
+		width: 60%;
+	}
+	.display_setting > h1
+	{
+		font-size: 100%;
+	}
+	.display_setting > h3
+	{
+		font-size: 80%;
+	}
+	.display_secur_label
+	{
+		font-size: 70%;
+	}
+
+}

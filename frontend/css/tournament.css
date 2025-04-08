@@ -1,0 +1,1053 @@
+
+:root{
+    --classic-color: #ffffff;
+    /* --neon-color: #00DCFF; */
+    --neon-color: #F941FF;
+    --fire-color: #FF774D;
+    --water-color: #63CBFF;
+    --earth-color: #43FF74;
+    --primary-color: #bb07a3;
+    --secondary-color: #cb0ccb;
+    --tertiary-color: #B821FF;
+    --background-color:linear-gradient(45deg, #511569 30%, black 90%);
+    --nav-color: linear-gradient(180deg, rgba(132,0,135,1) 0%, rgba(23,0,44,1) 100%);
+}
+
+@font-face {
+    font-family: 'BowblyOne';
+    src: url('../images/fonts/BowlbyOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;     
+}
+@font-face {
+    font-family: 'Bungee';
+    src: url('../images/fonts/Bungee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bungeeline';
+    src: url('../images/fonts/BungeeInline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saira';
+    src: url('../images/fonts/saira.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../images/fonts/Poppins-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tournament-element
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+	background-color:transparent;
+	width: 80%;
+	height: 100%;
+}
+
+#display_winner
+{
+	color: rgba(236, 212, 9, 1);
+	font-family: Bungee_Inline;
+	font-size: 250%;
+	/* background-color: #ffffff; */
+}
+
+
+
+.create-tournament , .four-players , .list-tournament
+{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color:transparent;
+	/* min-height: 1000px; */
+	/* min-width: 500px; */
+}
+.eight-players 
+{
+	width: 95%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color:transparent;
+	min-height: 900px;
+	/* min-width: 500px; */
+}
+
+join-tournament
+{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.left-line__, .right-line__
+{
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	background-color:transparent;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	/* min-height: 500px; */
+}
+
+
+
+#create_join
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+	background-color:transparent;
+	width: 100%;
+	height: 100%;
+	/* background-color: #FFFFFF; */
+}
+
+#TOURNEMENT
+{
+	width: 80%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+
+.TOURNEMENT_
+{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+#CREATE
+{
+	width: 80%;
+	height: 7%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: transparent;
+}
+.CREATE_
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: transparent;
+}
+@font-face {
+	font-family: 'Bungee_Inline';
+    src: url('../images/Bungee_Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.TOURNEMENT_ h1
+{
+	background: linear-gradient(90.03deg, #FFFFFF -123.25%, #FFFFFF -118.12%, #FFFFFF 41.28%, #FF00E6 94.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+	font-family: Bungee_Inline;
+	font-size: 4vw;
+}
+
+.CREATE_ h1
+{
+	background: linear-gradient(90.03deg, #FFFFFF -123.25%, #FFFFFF -118.12%, #FFFFFF 41.28%, #FF00E6 94.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+	font-family: Bungee_Inline;
+	font-size: 4vw;
+}
+
+.line
+{
+	width: 20%;
+	height: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+}
+
+#TOURNEMENT_img
+{
+	width: 80%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+
+#create_join_
+{
+	width: 80%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-direction: row;
+	background-color: transparent;
+}
+#nmb_players
+{
+	width: 80%;
+	height: 18%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+#create ,#four_players , #eight_players,#join
+{
+	position: relative;
+	width: 20%;
+	height: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+}
+#create img:hover {
+	transform: scale(1.1);
+}
+#join img:hover {
+	transform: scale(1.1);
+}
+#four_players img:hover {
+	transform: scale(1.1);
+}
+#eight_players img:hover {
+	transform: scale(1.1);
+}
+/* #clickable-create {
+	cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+} */
+#line_
+{
+	width: 40%;
+	height: 4px;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: rgb(255, 255, 255);
+}
+
+
+#star
+{
+	position: absolute;
+	width: 10%;
+	height: 7vh;
+}
+
+#create_img
+{
+	width: 80%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: transparent;
+}
+#tournment_name
+{
+	width: 80%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+
+/* #LINE
+{
+	width: 1%;
+	height: 70%;
+	background-color: wi;
+} */
+
+
+#display_name_tournment
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 40%;
+	font-size: 5rem;
+	color: white;
+	font-family: 'Bungee';
+	/* background-color: #FF00E6; */
+}
+
+#tournment_name_img
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 40%;
+	/* background-color: #373036; */
+}
+#name_tournment
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 20%;
+	background: linear-gradient(180deg, #ff17e8 0%, #7B008F 97.69%);
+	border-radius: 20px;
+}
+
+#input_name_tournment
+{
+	width: 95%;
+	height: 55%;
+	font-size: 100%;
+	color: white;
+	background: rgba(0, 0, 0, 0.38);
+	border-radius: 5px;
+}
+
+
+.container_right
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+.container_left
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+
+.container_left_line
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	height: 63%;
+	/* min-height: 650px; */
+}
+
+#player_final_right
+{
+	width: 25%;
+	height: 64.5%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* min-height: 650px; */
+}
+#player_final
+{
+	width: 25%;
+	height: 64.5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* min-height: 650px; */
+}
+
+
+.image {
+    display: block; /* Removes default inline spacing */
+    margin: 0; /* Removes any default margin */
+    width: 100%; /* Ensures the image takes up the full width of its container */
+	height: 110%;
+}
+
+#tour_4_players
+{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	flex-direction: row;
+}
+
+#winner_quit
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 10%;
+	flex-direction: column;
+	/* background-color: aqua; */
+}
+#winner
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 50%;
+	/* background-color: #000000; */
+}
+#quit
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 50%;
+}
+
+
+#quit-button
+{
+	width: 20%;
+	height: 45%;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	transition: background-color 0.3s, transform 0.3s;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* font-size: 100%; */
+	background-color: rgba(104, 13, 106, 1);
+}
+
+#quit-button:hover {
+	background: rgba(104, 13, 106, 1);
+	transform: scale(1.05);
+}
+
+#img_players_left
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	flex-direction: column;
+}
+#img_players_right
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-start;
+	flex-direction: column;
+}
+
+
+.img_player_1
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 40%;
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+	border: 3px white solid;
+	/* background-color: aquamarine; */
+}
+
+
+.img_player_
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 100%;
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+	border: 3px white solid;
+	/* background-color: aquamarine; */
+}
+.img_player_staylee
+{
+	width: 100%;
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+
+}
+
+
+.img_player_final
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 50%;
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+	border: 3px white solid;
+}
+/* #img_player_1 , #img_player_2, #img_player_3, #img_player_4 ,
+#img_player_demi_1, #img_player_demi_2
+{
+	width: 100%;
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+	background-color: aquamarine;
+} */
+
+
+
+
+#lines
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: 15%;
+	height: 50%;
+}
+
+#border_right
+{
+	width: 35%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#border_top_left
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+}
+#border_bottom_left
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+}
+
+.container1__
+{
+	width: 100%;
+	height: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: wheat; */
+}
+.container2__
+{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: yellowgreen; */
+}
+.container3__
+{
+	/* background-color: turquoise; */
+	width: 100%;
+	height: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5%;
+}
+
+.container3__ > h1
+{
+
+	font-size: 150%;
+	color: white;
+}
+
+#player_final_left
+{
+	width: 40%;
+	height: 35%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* background-color: #da2626; */
+	/* min-height: 650px; */
+}
+#player_final_left4
+{
+	width: 25%;
+	height: 63%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* background-color: #da2626; */
+	/* min-height: 650px; */
+}
+.final_8
+{
+	width: 20%;
+	height: 35%;
+	/* background-color: black; */
+}
+#player_final_right
+{
+	width: 40%;
+	height: 35%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* min-height: 650px; */
+}
+#player_final_right4
+{
+	width: 25%;
+	height: 63%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* min-height: 650px; */
+}
+
+#border_top_right
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid white;
+	border-left: 3px solid white;
+}
+#border_bottom_right
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid white;
+	border-left: 3px solid white;
+}
+#line_line
+{
+	width: 35%;
+	height: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+
+#final_img
+{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: row;
+	width: 50%;
+	height: 100%;
+
+}
+
+#img__player_winner
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#img__
+{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	width: 100%;
+	height: 60%;
+}
+#player_winner_star
+{
+	width: 100%;
+	height: 40%;
+	/* background-color: #181518; */
+	gap: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#player_winner
+{
+	width: 30%;
+	height: 55%;
+	background-color: #875787;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 100%;
+}
+
+@font-face {
+	font-family: 'Bungee_Inline';
+    src: url('../images/Bungee_Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#img_players_left_
+{
+	width: 25%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items:flex-start;
+	flex-direction: column;
+}
+#img_players_right_
+{
+	width: 20%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items:flex-end;
+	flex-direction: column;
+}
+
+
+.tour_8_players
+{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.quarter_final_left
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.quarter_final_left_
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+
+}
+.demi_final_left
+{
+	width: 20%;
+	height: 100%;
+}
+.quarter_final_right
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.demi_final_right
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20%;
+	height: 100%;
+}
+.final
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#container-tour
+{
+	display: flex;
+	max-height: 1500px; 
+    overflow-y: auto; 
+	/* justify-content: center; */
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	width: 80%;
+	height: 80%;
+	min-height: 200%;
+}
+
+.JOIN_
+{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+.JOIN_ h1
+{
+	background: linear-gradient(90.03deg, #FFFFFF -123.25%, #FFFFFF -118.12%, #FFFFFF 41.28%, #FF00E6 94.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+	font-family: Bungee_Inline;
+	font-size: 3vw;
+}
+
+.container_tour
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	min-height: 80px;
+	padding: 10px;
+	border-bottom: 5px solid black;
+	border-radius: 10px;
+}
+.container_tour:hover {
+	background-color: rgba(143, 6, 168, 0.29);
+	cursor: pointer;
+}
+
+.container_tour1
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	/* background-color: #710566; */
+	
+}
+.container_tour2
+{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 5%;
+	
+	/* background-color: #655e66; */
+}
+
+.tour_name1
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* min-width: 300px; */
+}
+.tour_name
+{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* min-width: 300px; */
+}
+
+.tour_name > img
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    width: 50%;
+    border-radius: 100%;
+	border: 3px solid white;
+}
+.h2_class
+{
+	margin: 0 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 130%;
+	font-family: Bungee_Inline;
+}
+.nmb-player-tour
+{
+	color: white;
+	font-family: Bungee_Inline;
+}
+.style-button1, .style-button2{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-family: Bungee_Inline;
+	border: 3px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+	width: 25%;
+	height: 25%;
+}
+
+.style-button1:hover {
+	cursor: pointer;
+	background: rgb(7, 175, 7);
+	transform: scale(1.05);
+}
+
+.style-button2:hover {
+	cursor: pointer;
+	background: red;
+	transform: scale(1.05);
+}
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+.test_match
+{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	background-color: #710566;
+}
+
+.player_local1
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.player_local1 > img
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1/1;
+	width: 30%;
+	border-radius: 100%;
+}
+
+@media (max-width: 800px) {
+    .container_tour {
+		width: 97%;
+        min-height: 50px;
+    }
+
+    .container_tour2 {
+        gap: 7%; 
+    }
+
+    .h2_class {
+        font-size: 60%;
+    }
+
+    .style-button {
+        height: 40%;
+		width: 50%;
+    }
+	.tour_name > img
+	{
+		width: 70%;
+	}
+}
+
+
+

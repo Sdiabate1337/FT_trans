@@ -1,0 +1,137 @@
+#background {
+	background-color: rgb(48, 1, 65);
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#left-bar{
+	background: linear-gradient(rgb(169, 0, 172), rgb(117, 0, 119), rgba(23, 0, 44, 1));
+	position: absolute;
+	width: 5%;
+	height: 90%;
+	margin-top: 2%;
+	margin-left: 2%;
+	padding-top: 20px;
+	border-radius: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#iconsContainer {
+	flex: 10;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.accountContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px; 
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40%;
+	flex: 1;
+	width: 100%;
+}
+
+.home {
+	width: 75px;
+	background-color: rgba(195, 29, 210, 1);
+	height: 75px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+.circle {
+	border-radius: 100%;
+}
+
+#logo-pong{
+	width: 90%;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+	/* margin: auto; */
+}
+
+.micbar
+{
+	/* border: 5px solid rgb(22, 19, 19); */
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 9%;
+	height: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.playerhome
+{
+	border: 5px solid #1417b2;
+	position: absolute;
+	margin-top: 5%;
+	width: 30%;
+	margin-left: 35%;
+	height: 30%;
+	/* padding-left: 10%;
+	padding-top: 2%; */
+}
+
+.runkplayer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* position: relative; */
+	clip-path: polygon(19% 0, 81% 0, 100% 47%, 81% 100%, 19% 98%, 0 50%);
+	background: rgb(255, 255, 255);
+	width: 10%;
+	height: 10%;
+}
+
+.runkplayer h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+	height: 95%;
+	background: rgba(81, 0, 94, 1);
+	clip-path: polygon(19% 0, 81% 0, 100% 47%, 81% 100%, 19% 98%, 0 50%);
+}
+
+.imgplayer img
+{
+	padding-left: 30%;
+	padding-top: 10%;
+	/* -webkit-filter: drop-shadow(2px 2px 0 white)
+                drop-shadow(-2px 2px 0 white)
+                drop-shadow(2px -2px 0 white)
+                drop-shadow(-2px -2px 0 white); */
+	
+	filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-2px 2px 0 white)
+        drop-shadow(2px -2px 0 white)
+        drop-shadow(-2px -2px 0 white);
+
+}
+
+.game_online p {
+	color : white;
+	font-size: 10rem;
+		
+}

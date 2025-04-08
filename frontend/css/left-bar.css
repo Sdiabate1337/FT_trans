@@ -1,0 +1,65 @@
+.left-bar {
+	background: linear-gradient(180deg, #840087 0%, #17002C 100%);
+	backdrop-filter: blur(23px);
+	gap: 15%;
+	padding-top: 25px;
+	margin-top: 15px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+	min-width: 50px;
+	max-width: 150px;
+	height: 90%;
+	min-height: 600px;
+	border-radius: 25px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	height: 50%;
+	min-height: 300px;
+}
+
+.button-test {
+	transition: transform 0.3s;
+}
+
+.button-test:hover {
+	transform: scale(1.2) rotate(15deg);
+	cursor: pointer;
+}
+	
+
+@media (max-width: 800px) {
+	.left-bar {
+		border-radius: 15px;
+		height: 90%;
+	}
+	.icons {
+		gap: unset;
+	}
+}
+
+.right-bar-logo {
+	width: 60%;
+	height: 10%;
+	min-height: 40px;
+}
+
+.profile-image {
+	width: 100%;
+	aspect-ratio: 1/1;
+	align-self: center;
+	min-width: 25px;
+	max-width: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+	object-fit: cover;
+}

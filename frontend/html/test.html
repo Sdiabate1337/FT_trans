@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/authentication.css">
+    <!-- <link rel="stylesheet" href="../css/home.css"> -->
+    <link rel="stylesheet" href="../css/left-bar.css">
+    <link rel="stylesheet" href="../css/right-bar.css">
+    <link rel="stylesheet" href="../css/play-mods.css">
+	<link rel="stylesheet" href="../css/playerPhoto.css">
+	<link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+	<div class="root" id="box">
+	<div class="ponglogo">
+		<h1> RESET PASSWOR</h1>
+		<h2> ENTER YOUR EMAIL AND A NEW PASSWORD </h2>
+	</div>
+<form id="loginForm" action="reset_password" method="post" class="form-checkbox-container" autocomplete="off">
+		<div class="inputdiv">
+			<input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off" required>
+		</div>
+		<div class="inputdiv">
+			<input type="password" id="new_password" name="new_password" placeholder="Enter a new password" required>
+			<span class="ayeIcon">
+				<img src='../images/closed-eye.svg' id="eye-icon" alt="Show password" width="100%" height="100%">
+			</span>
+		</div>
+		<div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+			<button type="submit" class="button" >RESET</button>
+		</div>
+</form>
+<p>A comfirmation email will be sent to your email please after you click submit please go to your email ans confirm the password reset.</p>
+<div class="signUpDiv">
+<p><a id="redirect-registration" >GO BACK TO LOGIN</a></p>
+</div>
+</div>
+</body>
+</html>
