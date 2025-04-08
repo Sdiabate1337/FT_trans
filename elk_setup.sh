@@ -16,18 +16,7 @@ if [ -z "$ELK_USER" ] || [ -z "$ELK_USER_PASS" ]; then
   exit 1
 fi
 
-# Check Elasticsearch connection
-ES_URL="http://localhost:9200"
-echo "Testing connection to Elasticsearch at $ES_URL"
-ES_RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -u "$ELK_USER:$ELK_USER_PASS" $ES_URL)
 
-if [ "$ES_RESPONSE" == "200" ]; then
-  echo "Successfully authenticated to Elasticsearch!"
-else
-  echo "Failed to authenticate to Elasticsearch. Status code: $ES_RESPONSE"
-  echo "Check your credentials in .env file and make sure they match the ones in docker-compose.yml"
-  exit 1
-fi
 
 echo "All services ready! Proceeding with ELK setup..."
 

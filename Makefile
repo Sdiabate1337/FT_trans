@@ -1,10 +1,6 @@
 .PHONY: all setup up down clean clean_all re
 
-all: up wait setup
-
-wait:
-    @echo "Waiting for services to initialize..."
-    @sleep 30
+all: up setup
 
 setup:
 	chmod +x elk_setup.sh
